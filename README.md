@@ -46,3 +46,5 @@ Pasta	O que é / Para que serve
 - Plugins/Android/	Plugins nativos Android (AAR, .so, manifest overrides). Padrão quando há integração com SDKs mobile/VR.
 - Prefabs/	Prefabs do projeto (composição final de objetos da cena: paredes, salas, props, interações).
 - Scripts/	Scripts C# do projeto (interações VR, lógica de cena, utilitários).
+
+Link do projeto: https://github.com/Cabral369/Meta_xr_work

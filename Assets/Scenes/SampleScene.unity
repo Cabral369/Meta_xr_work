@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 0.5
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8b7dd0809c7c6498789fa32a61eaa6cb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -718,7 +718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3519905367244488835, guid: db25d2b389bb0f8478e7e515c8f76426, type: 3}
       propertyPath: m_Name
-      value: simple_desk
+      value: coffe_desk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2579,7 +2579,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2527264123409622065, guid: 69fae7714546f6942abab8f0e225babb, type: 3}
       propertyPath: m_Name
-      value: lamp
+      value: lamp_center_left
       objectReference: {fileID: 0}
     - target: {fileID: 5125434178437254222, guid: 69fae7714546f6942abab8f0e225babb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2713,7 +2713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8970352612326234679, guid: aeec122b5cfbc844894e42eb2bd55386, type: 3}
       propertyPath: m_Name
-      value: desk_3
+      value: main_dedsk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2827,7 +2827,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2883718957547969895, guid: 1630afabe1cc030489542c43308060c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.762
+      value: 2.734
       objectReference: {fileID: 0}
     - target: {fileID: 2883718957547969895, guid: 1630afabe1cc030489542c43308060c8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2835,7 +2835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2883718957547969895, guid: 1630afabe1cc030489542c43308060c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.85400045
+      value: 0.845
       objectReference: {fileID: 0}
     - target: {fileID: 2883718957547969895, guid: 1630afabe1cc030489542c43308060c8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3471,7 +3471,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3958309247798301498, guid: 967f27315cdc09c4690d53105ddd4956, type: 3}
       propertyPath: m_Name
-      value: desk_2 (1)
+      value: private_desk_right
       objectReference: {fileID: 0}
     - target: {fileID: 7041627700634647898, guid: 967f27315cdc09c4690d53105ddd4956, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4859,7 +4859,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2527264123409622065, guid: 69fae7714546f6942abab8f0e225babb, type: 3}
       propertyPath: m_Name
-      value: lamp (1)
+      value: lamp_center_right
       objectReference: {fileID: 0}
     - target: {fileID: 5125434178437254222, guid: 69fae7714546f6942abab8f0e225babb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7397,7 +7397,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3958309247798301498, guid: 967f27315cdc09c4690d53105ddd4956, type: 3}
       propertyPath: m_Name
-      value: desk_2
+      value: private_desk_left
       objectReference: {fileID: 0}
     - target: {fileID: 7041627700634647898, guid: 967f27315cdc09c4690d53105ddd4956, type: 3}
       propertyPath: m_LocalPosition.x

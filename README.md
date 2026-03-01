@@ -34,15 +34,15 @@ A estrutura abaixo organiza o projeto por tipo de recurso (arte, áudio, scripts
 
 Pasta	O que é / Para que serve
 
-Animation/	Clips, controllers (Animator), timelines e assets relacionados a animação.
-Audio/	Efeitos sonoros, músicas, mixers e configurações de áudio.
-HDRPDefaultResources/	Recursos padrão do HDRP (shaders, materiais e configs geradas/necessárias quando o projeto usa HDRP).
-Materials/	Materiais customizados do projeto (ex.: paredes, piso, variações do escritório).
-Models/	Modelos 3D (FBX/OBJ) próprios ou importados (fora dos pacotes de terceiros).
-Oculus/	Conteúdo importado/gerado relacionado ao ecossistema Meta/Oculus (dependendo do SDK/pacotes usados).
-Packages/	Conteúdo de terceiros mantido dentro do Assets (não confundir com Unity Package Manager). Aqui você agrupou: AllSkyFree/, VNB - Office Set/, XR/ etc.
-Packages/XR/Loaders e Packages/XR/Settings	Assets de configuração/carregadores XR que podem ser criados/atualizados conforme o XR Plug-in Management e providers ativos.
-Photons/	Area reservada para Photon (multiplayer/networking).
-Plugins/Android/	Plugins nativos Android (AAR, .so, manifest overrides). Padrão quando há integração com SDKs mobile/VR.
-Prefabs/	Prefabs do projeto (composição final de objetos da cena: paredes, salas, props, interações).
-Scripts/	Scripts C# do projeto (interações VR, lógica de cena, utilitários).
+- Animation/	Clips, controllers (Animator), timelines e assets relacionados a animação.
+- Audio/	Efeitos sonoros, músicas, mixers e configurações de áudio.
+- HDRPDefaultResources/	Recursos padrão do HDRP (shaders, materiais e configs geradas/necessárias quando o projeto usa HDRP).
+- Materials/	Materiais customizados do projeto (ex.: paredes, piso, variações do escritório).
+- Models/	Modelos 3D (FBX/OBJ) próprios ou importados (fora dos pacotes de terceiros).
+- Oculus/	Conteúdo importado/gerado relacionado ao ecossistema Meta/Oculus (dependendo do SDK/pacotes usados).
+- Packages/	Conteúdo de terceiros mantido dentro do Assets (não confundir com Unity Package Manager). Aqui você agrupou: AllSkyFree/, VNB - Office Set/, XR/ etc.
+- Packages/XR/Loaders e Packages/XR/Settings	Assets de configuração/carregadores XR que podem ser criados/atualizados conforme o XR Plug-in Management e providers ativos.
+- Photons/	Area reservada para Photon (multiplayer/networking).
+- Plugins/Android/	Plugins nativos Android (AAR, .so, manifest overrides). Padrão quando há integração com SDKs mobile/VR.
+- Prefabs/	Prefabs do projeto (composição final de objetos da cena: paredes, salas, props, interações).
+- Scripts/	Scripts C# do projeto (interações VR, lógica de cena, utilitários).

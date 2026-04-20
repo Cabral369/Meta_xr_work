@@ -16,17 +16,32 @@ AllSky Free - 10 Sky / Skybox Set
 
 O projeto foi configurado para VR com:
 
-Meta XR All-in-One SDK (pacote “guarda-chuva” que agrega os SDKs Meta mais recentes).
+Meta XR All-in-One SDK (pacote "guarda-chuva" que agrega os SDKs Meta mais recentes).
 
-XR Plug-in Management (framework do Unity para habilitar providers XR por plataforma, ex.: Android). A configuração “Android → Oculus” (ou equivalente) fica centralizada aqui.
+XR Plug-in Management (framework do Unity para habilitar providers XR por plataforma, ex.: Android). A configuração "Android → Oculus" (ou equivalente) fica centralizada aqui.
 
-Observação prática: a Meta recomenda OpenXR como backend padrão em Quest e o “Oculus XR Plugin”/packages relacionados como base para rodar no headset, dependendo do setup/versão do projeto.
+Observação prática: a Meta recomenda OpenXR como backend padrão em Quest e o "Oculus XR Plugin"/packages relacionados como base para rodar no headset, dependendo do setup/versão do projeto.
 
 🤖 Build alvo (Android / Meta Quest)
 
 Plataforma alvo: Android (ou perfil Meta Quest quando disponível no Unity 6.x).
 
 Para configurar/confirmar plataforma e XR no fluxo recomendado pela Meta (Build Profiles + OpenXR quando solicitado), use as orientações oficiais.
+
+📞 Interação Obrigatória — Telefone Interativo
+
+O projeto conta com um **telefone interativo** implementado em C# (`TelefoneInteracao.cs`).
+
+**Como funciona:**
+- Ao apontar o controller para o telefone e pressionar o **trigger**, o telefone toca o som de chamada em loop
+- O monofone sobe levemente simulando a ação de atender
+- Ao pressionar o trigger novamente, o som para e o monofone retorna à posição original
+
+**Detalhes técnicos:**
+- Input via `OVRInput` (Meta XR SDK)
+- Detecção do objeto por `Physics.Raycast` a partir do controller
+- Animação do monofone interpolada com `Vector3.Lerp`
+- Áudio gerenciado pelo componente `AudioSource` da Unity com loop ativado
 
 🗂️ Estrutura de pastas (Assets/)
 
